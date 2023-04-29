@@ -344,6 +344,25 @@ img {
   background-color: var(--color-ocean);
 }
 
+.customers{
+  padding: 120px 0;
+}
+
+.customers-conteiner{
+  display: flex;
+  gap: 24px;
+}
+
+.customers-item{
+  box-sizing: border-box;
+  padding: 16px 32px;
+  width: 168px;
+  height: 88px;
+  border: 1px solid var(--color-light-slate) ;
+  border-radius: 4px;
+}
+
+
 /*Footer*/
 
 .footer {
