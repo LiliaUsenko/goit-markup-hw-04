@@ -341,8 +341,7 @@ img {
   justify-content: center;
   width: 232px;
   gap: 24px;
-  padding-left: 16px;
-  padding-right: 16px;
+ 
 }
 
 .social-link {
@@ -464,6 +463,8 @@ img {
   max-width: 208px;
   margin-left: 0;
   margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .social-media-text{
