@@ -355,7 +355,7 @@ img {
 }
 
 .social-link:hover,
-.social-link:focus {
+.social-link:focus{
   background-color:var(--color-ocean);
 }
 .social-icon{
@@ -386,12 +386,10 @@ img {
 
 .customers-link{
   display: flex;
-  align-items: center;
-  justify-content: center;
+ 
   color: var(--color-light-slate);
   width: 100%;
   height:100%;
-  border: 1px solid var(--color-light-slate);
   border-radius: 4px;
 }
 
@@ -481,8 +479,18 @@ img {
   padding-right: 0;
 }
 
-.social-link:hover,
-.social-link:focus{
+.social-footer-link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-iris);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.social-footer-link:hover,
+.social-footer-link:focus{
   background-color:var(--color-green) ;
 
 }
