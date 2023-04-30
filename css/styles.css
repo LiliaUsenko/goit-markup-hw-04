@@ -378,7 +378,6 @@ img {
   box-sizing: border-box;
   width: 168px;
   height: 88px;
-  padding: 16px 32px;
   border: 1px solid var(--color-light-slate);
   border-radius: 4px;
 }
